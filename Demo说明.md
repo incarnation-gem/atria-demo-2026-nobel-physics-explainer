@@ -32,7 +32,7 @@
 ### 从源码运行
 
 ```bash
-git clone <仓库地址>
+git clone https://github.com/incarnation-gem/atria-demo-2026-nobel-physics-explainer.git
 cd atrie-demo-2026-nobel-physics-explainer
 npm install
 
