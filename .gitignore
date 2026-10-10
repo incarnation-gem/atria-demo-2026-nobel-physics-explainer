@@ -6,3 +6,4 @@ render.done
 fin_count.txt
 *.log
 .DS_Store
+__pycache__/

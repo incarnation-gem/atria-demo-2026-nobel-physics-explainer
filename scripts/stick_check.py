@@ -1,10 +1,11 @@
 """粘连量化：对 stills/G1 做连通分量分析，找内容区内间距 < 30px 的分量对。"""
-import glob, sys
+import glob, os, sys
 import numpy as np
 from PIL import Image
 from scipy import ndimage
 
-SRC = sys.argv[1] if len(sys.argv) > 1 else "/Users/incarnation/ZCodeProject/anything2explainer_videos/icecube-neutrino/stills/G1"
+ROOT = sys.argv[2] if len(sys.argv) > 2 else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "stills", "G1")
 # 内容区（去 HUD 顶部 y<105、字幕带 y>632）
 Y0, Y1 = 105, 632
 
