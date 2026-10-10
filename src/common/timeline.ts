@@ -1,0 +1,42 @@
+// 自动生成：scripts/tts_build.py。帧号 1 起含端点。
+export const TOTAL_FRAMES = 5821;
+export const CHAPTER_STARTS: Array<{n: number; title: string; from: number}> = [
+];
+export type Sentence = {id: string; chapter: number; from: number; to: number; text: string};
+export const SENTENCES: Sentence[] = [
+  {id: "S01", chapter: 0, from: 41, to: 218, text: "宇宙中最猛烈的加速器，藏在黑洞喷流里，把粒子加速到人类机器的上百万倍。"},
+  {id: "S02", chapter: 0, from: 229, to: 331, text: "但它的光飞不远，会被沿途的气体和尘埃吞掉。"},
+  {id: "S03", chapter: 0, from: 342, to: 502, text: "能跑出来的宇宙线，带着电，被银河系磁场甩了一路，到地球早已找不着北。"},
+  {id: "S04", chapter: 0, from: 513, to: 644, text: "一百年来，我们一直在问：这些加速器，到底藏在哪里？"},
+  {id: "S05", chapter: 0, from: 675, to: 827, text: "除非有一种粒子，不带电、不转弯，能穿透星系直奔地球。"},
+  {id: "S06", chapter: 0, from: 838, to: 1006, text: "它叫中微子，从宇宙深处出发，沿着直线，把源头的地址随身带来。"},
+  {id: "S07", chapter: 0, from: 1037, to: 1123, text: "代价是：它几乎不跟任何东西发生作用。"},
+  {id: "S08", chapter: 0, from: 1134, to: 1328, text: "此刻，每秒约 650 亿个中微子，正穿过你的指甲盖而你这一辈子，可能一个都逮不着。"},
+  {id: "S09", chapter: 0, from: 1359, to: 1474, text: "整颗地球对它，就像一层保鲜膜，想拦也拦不住。"},
+  {id: "S10", chapter: 0, from: 1485, to: 1557, text: "这跟玻璃的透明，可不是一码事。"},
+  {id: "S11", chapter: 0, from: 1568, to: 1670, text: "它有多大质量，到今天，人类都还没量出来。"},
+  {id: "S12", chapter: 0, from: 1701, to: 1815, text: "要抓它，得用全世界最大的靶子，配最亮的眼睛。"},
+  {id: "S13", chapter: 0, from: 1826, to: 2059, text: "在南极冰盖下，1450 到 2450 米深处，人们垂下 86 根缆绳，挂上 5160 只灯泡。"},
+  {id: "S14", chapter: 0, from: 2070, to: 2225, text: "5160 只灯泡，还不到一个小区的路灯数，却要盯住一整块一立方公里的冰。"},
+  {id: "S15", chapter: 0, from: 2236, to: 2340, text: "这块冰重约十亿吨，既是靶子，也是视网膜。"},
+  {id: "S16", chapter: 0, from: 2351, to: 2458, text: "深处的冰干净到，光跑两百米，才被吸收一次。"},
+  {id: "S17", chapter: 0, from: 2489, to: 2626, text: "终于有一个中微子，撞上了冰里的一个原子核，变出一个带电的 μ 子。"},
+  {id: "S18", chapter: 0, from: 2637, to: 2795, text: "μ 子跑得，比冰里的光还快。注意，是冰里的光速，不是真空光速。"},
+  {id: "S19", chapter: 0, from: 2806, to: 2971, text: "它一路拉出一条蓝色的光鞭，像光学的音爆，被 5160 只眼睛同时看见。"},
+  {id: "S20", chapter: 0, from: 2982, to: 3123, text: "靠光到达的先后，就能反推出信从哪来精度比看满月还要窄。"},
+  {id: "S21", chapter: 0, from: 3154, to: 3339, text: "大气里的 μ 子，每秒钟敲响三千次。只收从地底钻上来的，噪声就几乎没了。"},
+  {id: "S22", chapter: 0, from: 3350, to: 3501, text: "一年约 100 个真正的天体中微子，就这样从十万个背景里，被挑了出来。"},
+  {id: "S23", chapter: 0, from: 3532, to: 3682, text: "2013 年，第一封，来自宇宙深处的信。能量是一千万亿电子伏级。"},
+  {id: "S24", chapter: 0, from: 3693, to: 3856, text: "2017 年，一个 290 万亿电子伏的中微子，指向远方一个正在剧烈耀发的星系。"},
+  {id: "S25", chapter: 0, from: 3887, to: 4140, text: "最绝的是，2022 年，盯上的 NGC 1068。它的中心黑洞，被厚厚的气体裹住，光根本出不来。"},
+  {id: "S26", chapter: 0, from: 4151, to: 4208, text: "中微子却大大方方地跑了出来。"},
+  {id: "S27", chapter: 0, from: 4219, to: 4341, text: "而在今年，人类见过最高能的中微子纪录，刚刚被刷新。"},
+  {id: "S28", chapter: 0, from: 4372, to: 4533, text: "听起来，好像，已经找到源头了？其实，它们至今都只是\"候选\"。"},
+  {id: "S29", chapter: 0, from: 4544, to: 4613, text: "发现的门槛，至今还没人跨过去。"},
+  {id: "S30", chapter: 0, from: 4644, to: 4828, text: "2026 年 10 月，诺贝尔物理学奖，颁给了冰立方首席科学家弗兰西斯·哈尔岑。"},
+  {id: "S31", chapter: 0, from: 4839, to: 4926, text: "他是 34 年来，第一位独享物理奖的人。"},
+  {id: "S32", chapter: 0, from: 4937, to: 5115, text: "他本来是画公式的理论物理学家，却牵头造了十几年，把一个念头做成了一立方公里。"},
+  {id: "S33", chapter: 0, from: 5126, to: 5390, text: "他却说，这个奖属于 14 国近 450 人的团队。他还说：如果一开始就知道冰里全是气泡，这事儿根本起不来。"},
+  {id: "S34", chapter: 0, from: 5421, to: 5547, text: "从只能看光，到拆开这位幽灵信使走了亿万光年的履历单。"},
+  {id: "S35", chapter: 0, from: 5558, to: 5637, text: "光看不见的那些宇宙，第一次被人看见了。"},
+];

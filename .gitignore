@@ -1,0 +1,8 @@
+node_modules/
+build_*/
+fin_frames/
+stills/
+render.done
+fin_count.txt
+*.log
+.DS_Store

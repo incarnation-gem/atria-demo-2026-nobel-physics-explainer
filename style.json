@@ -1,0 +1,20 @@
+{
+  "name": "blackpurple",
+  "desc": "黑底幕底（星点/点阵波）+ 白线条图形 + 紫色重点 + 超粗黑体（默认风格，即 examples/rag 样片风格）",
+  "config_defaults": { "bg": "dots" },
+  "style_guide": "reference/style-guide.md",
+  "light_and_composition": "reference/composition-and-light.md",
+  "motion_vocabulary": "reference/motion-vocabulary.md",
+  "calibration_frames": "examples/rag/frames/",
+  "qc": {
+    "bg_lum": "dark",
+    "bright_thr": 120,
+    "accent_rgb": [102, 48, 248],
+    "accent_tol": 110,
+    "accent_sat": 0.45,
+    "accent_lum": 45,
+    "glow_required": true,
+    "glow_min": 800,
+    "hero_min": 170
+  }
+}
